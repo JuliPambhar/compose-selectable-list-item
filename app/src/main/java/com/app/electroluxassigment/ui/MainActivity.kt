@@ -19,9 +19,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             AppTheme {
                 val dataInfos = viewModel.viewData.collectAsState()
-                MainScreen(dataInfos.value, onSelectionChange = { changedIndex ->
-                    viewModel.onSelectionChange(changedIndex)
-                })
+                MainScreen(dataInfos.value, onSelectionChange =  viewModel::onSelectionChange
+                )
             }
         }
     }
