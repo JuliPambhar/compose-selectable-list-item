@@ -2,7 +2,7 @@
 
  Created a reusable component using Jetpack Compose that supports different model objects. This reusable component could be useful in both your app and if you decide to share it as a library. Creating a shared reusable component will help avoid future code duplication and potential bugs associated with writing and maintaining more code.
 
-## Funcationality
+## Functionality
 
  ● Implemented a generic component called “SelectableItem” where it is possible to select or disable it.
  
@@ -12,7 +12,9 @@
  
  ● Light Dark mode support.
  
- ● Ui Test cases.
+ ● UI test cases.
+
+ ● Unit test cases.
 
 | Light Mode  | Dark Mode |
 | ------------- | ------------- |
